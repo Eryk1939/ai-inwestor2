@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: ai-inwestor
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python train_loop.py
