@@ -1,0 +1,5 @@
+yfinance
+pandas
+numpy
+stable-baselines3
+finrl
